@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(51, 38, 18);
+  margin: auto;
+}
+
+.img img {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.navbar > ul {
+  list-style: none;
+  float: right;
+  display: flex;
+  margin: 21px 21px 0px 0px;
+}
+
+.navbar > ul > li {
+  margin: 0px 0px 0px 25px;
+}
+.navbar > ul > li > a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+.header > h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 60px 0px 50px 0px;
+}
+
+.button,
+.section1button {
+  text-align: center;
+}
+button {
+  height: 50px;
+  width: 200px;
+  border-radius: 40px;
+  border: none;
+  margin: 20px 0px 50px 0px;
+}
+
+.button > button > a {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+.button > button > img {
+  height: 21px;
+  width: 21px;
+  margin-right: 5px;
+}
+
+.section1 {
+  background-color: rgb(248, 240, 225);
+}
+.section1 > h2 {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  padding-top: 75px;
+  margin: 0px 0px 75px 0px;
+}
+
+.center {
+  /* font-weight: bolder; */
+  text-align: center;
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-weight: normal;
+  padding-bottom: 30px;
+  padding-right: 25px;
+}
+td {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: bolder;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.263);
+}
+
+.section1button > button > a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+.section1button > button {
+  height: 50px;
+  width: 350px;
+  border-radius: 40px;
+  border: none;
+  margin: 20px 0px 20px 0px;
+  background-color: black;
+}
+
+#section1h2 {
+  margin: 50px 0px 15px 0px;
+}
+.section2 > h2 {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  padding: 50px 0px 50px 0px;
+}
+
+.section2 > h4 {
+  font-size: 25px;
+  /* color: black; */
+  text-align: center;
+  /* padding: 70px 0px 70px 0px; */
+}
+
+.section2divmain {
+  display: flex;
+  justify-content: center;
+}
+.div1 {
+  border: 2px solid rgba(0, 0, 0, 0.42);
+  border-radius: 25px;
+  margin: 30px 10px 0px 20px;
+  height: 30rem;
+  width: 28.125rem;
+  /* background-color: aqua; */
+}
+.div2 {
+  border: 2px solid rgba(0, 0, 0, 0.42);
+  border-radius: 25px;
+  margin: 30px 20px 20px 10px;
+  height: 30rem;
+  width: 28.125rem;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+.p1 {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  display: inline-block;
+  margin: 25px 0px 25px 25px;
+  background-color: aqua;
+}
+
+.p22{border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  display: inline-block;
+  margin: 25px 0px 25px 0px;
+  background-color: aqua;}
+
+.div1 > h2 {
+  margin: 0px 0px 15px 25px;
+}
+.p2 {
+  font-size: 20px;
+  margin: 0px 25px 5px 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.522);
+}
+#h3 {
+  margin-top: 20px;
+}
+.div1 > h3 {
+  font-size: 1.6rem;
+  margin: 0px 25px 0px 25px;
+}
+
+.section2divmainbutton {
+  color: white;
+  background-color: black;
+  margin: 0px 25px 0px 25px;
+  width: 25rem;
+  margin-top: 20px;
+}
+#h4 {
+  margin: 100px 0px 20px 0px;
+}
+
+.form {
+  margin: 25px;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.501);
+}
+
+input,
+select {
+  margin-bottom: 20px;
+}
+label {
+  margin-bottom: 200px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#section2button {
+  /* border: 2px solid black; */
+  text-align: center;
+}
+
+#section2button > button {
+  border: 2px solid black;
+  text-align: center;
+}
+
+#submit {
+  border: 3px solid black;
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+footer {
+  background-color: black;
+  align-items: center;
+}
+footer > P {
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
+}
+
+footer > div {
+  display: flex;
+  justify-content: center;
+}
+
+footer >div> i {
+  font-size: 25px;
+  margin: 40px 5px 10px 5px;
+}

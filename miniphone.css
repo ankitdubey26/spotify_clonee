@@ -1,0 +1,103 @@
+.img img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .navbar > ul > li > a {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .header > h2 {
+    font-size: 16px;
+  }
+
+button {
+  height: 37px;
+  width: 150px;
+  border-radius: 40px;
+  border: none;
+  margin: 15px 0px 40px 0px;
+}
+
+.button > button > a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+.button > button > img {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+
+
+.section1 > h2 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    padding-top: 50px;
+    margin: 0px 0px 40px 0px;
+  }
+  
+  .center {
+    /* font-weight: bolder; */
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  th {
+    font-weight: normal;
+    padding-bottom: 30px;
+    padding-right: 25px;
+  }
+  td {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 25px;
+    font-weight: bolder;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.263);
+  }
+  
+  .section1button > button > a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+  }
+  
+  .section1button > button {
+    height: 40px;
+    width: 250px;
+    border-radius: 40px;
+    border: none;
+    margin: 18px 0px 18px 0px;
+    background-color: black;
+  }
+  
+  #section1h2 {
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .section2 > h2 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+  }
+  
+  .section2 > h4 {
+    font-size: 20px;
+    /* color: black; */
+    text-align: center;
+    /* padding: 70px 0px 70px 0px; */
+  }
